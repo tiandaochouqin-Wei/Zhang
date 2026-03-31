@@ -7,52 +7,108 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <header class="topbar">
+    <div class="nav-wrap">
+      <div class="site-title">Your Name</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#service">Service</a>
+        <a href="#resources">Resources</a>
+        <a href="#cv">CV</a>
+        <a href="#datasets">Datasets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="home">
     <aside class="sidebar">
       <img src="photo.jpg" alt="Profile Photo" class="profile-photo">
+      <p class="motto">Try your best and keep trying.</p>
       <h1>Your Name</h1>
-      <p>Postdoctoral Researcher</p>
-      <p>Your University</p>
+      <p class="degree">Postdoc, Your Institution, Year</p>
+      <p class="degree">PhD, Your Institution, Year</p>
+      <p class="position">Associate Professor / Postdoctoral Researcher</p>
+      <p><a href="#">Your Lab</a></p>
+      <p><a href="#">Your Department</a></p>
       <p>Email: your_email@xxx.com</p>
-      <p><a href="#">Google Scholar</a></p>
-      <p><a href="#">ORCID</a></p>
-      <p><a href="cv.pdf">CV</a></p>
+      <p class="expertise">
+        Expertise: Research topic 1; Research topic 2; Research topic 3
+      </p>
     </aside>
 
-    <main class="content">
-      <section>
-        <h2>About</h2>
+    <section class="main-content">
+      <section class="block">
+        <h2>Introduction</h2>
         <p>
-          Write a short academic biography here. Introduce your research area,
-          current position, and core interests.
+          Write a concise academic biography here. Introduce current position,
+          institution, main research areas, and key achievements.
+        </p>
+        <p>
+          This section corresponds to the introduction area of the sample site.
+          It is best to write two or three compact paragraphs instead of one very long paragraph.
         </p>
       </section>
 
-      <section>
-        <h2>Research Interests</h2>
+      <section class="block" id="news">
+        <h2>News</h2>
         <ul>
-          <li>Research topic 1</li>
-          <li>Research topic 2</li>
-          <li>Research topic 3</li>
+          <li>2026.03 One paper is accepted by ...</li>
+          <li>2026.02 One project is approved by ...</li>
+          <li>2025.12 Joined ...</li>
         </ul>
       </section>
 
-      <section>
+      <section class="block" id="publications">
         <h2>Selected Publications</h2>
-        <p>1. Author, Author. Title. Journal, Year.</p>
-        <p>2. Author, Author. Title. Journal, Year.</p>
+        <p><strong>Google Scholar</strong> | <a href="#">ORCID</a> | <a href="#">Scopus</a></p>
+        <ol>
+          <li>Author, Author. Title. Journal, Year.</li>
+          <li>Author, Author. Title. Journal, Year.</li>
+          <li>Author, Author. Title. Journal, Year.</li>
+          <li>Author, Author. Title. Journal, Year.</li>
+        </ol>
       </section>
 
-      <section>
-        <h2>News</h2>
-        <p>2026.03 One recent update here.</p>
+      <section class="block" id="service">
+        <h2>Service</h2>
+        <ul>
+          <li>Reviewer for ...</li>
+          <li>Program committee member of ...</li>
+          <li>Guest editor of ...</li>
+        </ul>
       </section>
 
-      <section>
+      <section class="block" id="resources">
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="#">Project page</a></li>
+          <li><a href="#">Code repository</a></li>
+          <li><a href="#">Tutorial material</a></li>
+        </ul>
+      </section>
+
+      <section class="block" id="cv">
+        <h2>CV</h2>
+        <p><a href="cv.pdf">Download CV</a></p>
+      </section>
+
+      <section class="block" id="datasets">
+        <h2>Datasets</h2>
+        <ul>
+          <li><a href="#">Dataset 1</a></li>
+          <li><a href="#">Dataset 2</a></li>
+        </ul>
+      </section>
+
+      <section class="block" id="contact">
         <h2>Contact</h2>
         <p>Email: your_email@xxx.com</p>
+        <p>Address: Your institution and office address</p>
       </section>
-    </main>
-  </div>
+    </section>
+  </main>
 </body>
 </html>
