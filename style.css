@@ -179,17 +179,6 @@ a:hover {
   margin-bottom: 12px;
 }
 
-.news-date {
-  display: inline-block;
-  min-width: 78px;
-  font-weight: 700;
-  color: #111;
-}
-
-.news-text {
-  color: #333;
-}
-
 .pub-links {
   display: flex;
   flex-wrap: wrap;
@@ -203,6 +192,84 @@ a:hover {
 
 .pub-list li {
   padding-left: 2px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.section-header h2 {
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  font-size: 30px;
+  color: #111;
+}
+
+.more-btn {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #4f81bd;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.more-btn:hover {
+  background: #3f6fa8;
+  text-decoration: none;
+}
+
+.news-style-2 {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.news-style-2 li {
+  margin-bottom: 10px;
+  color: #222;
+  line-height: 1.6;
+}
+
+.news-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  margin-right: 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.badge-blue {
+  background: #67b7dc;
+}
+
+.badge-green {
+  background: #58b957;
+}
+
+.badge-orange {
+  background: #e4a63b;
+}
+
+.badge-cyan {
+  background: #5bbfd6;
+}
+
+.badge-yellow {
+  background: #d9a441;
+}
+
+.news-text {
+  font-size: 16px;
+  color: #222;
 }
 
 .site-footer {
@@ -248,6 +315,10 @@ a:hover {
   }
 
   .section h2 {
+    font-size: 26px;
+  }
+
+  .section-header h2 {
     font-size: 26px;
   }
 
