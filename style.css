@@ -253,8 +253,8 @@ a:hover {
 .simple-list li,
 .pub-list li {
  margin-bottom: 12px;
-  font-size: 17.5px; 
-  line-height: 1.7;
+  font-size: 20px; 
+  line-height: 1.8;
 }
 
 .pub-links {
@@ -311,8 +311,8 @@ a:hover {
 .news-style-2 li {
   margin-bottom: 12px;
   color: #222;
-  font-size: 17.5px; 
-  line-height: 1.7;
+  font-size: 20px; 
+  line-height: 1.8;
 }
 
 .news-badge {
@@ -347,7 +347,7 @@ a:hover {
 }
 
 .news-text {
-  font-size: 16px;
+  font-size: 20px;
   color: #222;
 }
 
