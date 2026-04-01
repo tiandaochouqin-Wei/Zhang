@@ -468,3 +468,37 @@ a:hover {
   width: 100%;                   
   max-width: 350px;            
 }
+
+.profile-info p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #333;
+}
+.profile-info a {
+  font-size: inherit;
+}
+
+.info-edu {
+}
+
+
+.info-title {
+  margin-top: 14px; 
+}
+
+
+.info-affiliation {
+  margin-bottom: 6px; 
+}
+
+
+.info-email {
+  margin-top: 14px; 
+}
+
+.info-expertise {
+  margin-top: 14px; 
+  color: #555; 
+}
