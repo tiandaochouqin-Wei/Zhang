@@ -63,13 +63,13 @@ a:hover {
   text-decoration: none;
 }
 
-/* 下拉菜单容器 */
+
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* 带有下拉箭头的文字 */
+
 .dropbtn {
   cursor: pointer;
 }
@@ -89,7 +89,7 @@ a:hover {
   border: 1px solid #e8e8e8;
 }
 
-/* 下拉菜单里的链接样式 */
+
 .dropdown-content a {
   color: #222;
   padding: 8px 20px;
@@ -98,30 +98,55 @@ a:hover {
   font-size: 14px;
 }
 
-/* 鼠标悬停在下拉链接上时的背景色 */
+
 .dropdown-content a:hover {
   background-color: #f4f4f9;
   color: #0b63c9;
 }
 
-/* 鼠标悬停在整个 dropdown 容器上时，显示菜单 */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
+
 .page {
-  max-width: 1180px;
-  margin: 30px auto 60px auto;
+  max-width: 1050px; 
+  margin: 40px auto 60px auto;
   padding: 0 24px;
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 48px;
+  display: block; 
 }
 
-.sidebar {
-  position: sticky;
-  top: 92px;
-  align-self: start;
+
+.profile-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 50px;
+  align-items: flex-start;
+}
+
+
+.profile-image-container {
+  flex: 0 0 220px;
+}
+
+
+.profile-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.profile-info .profile-name {
+  margin-top: 0;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.profile-info .profile-line {
+  margin: 6px 0;
+  color: #333;
+  font-size: 16px;
 }
 
 .profile-photo {
