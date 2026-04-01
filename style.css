@@ -428,3 +428,43 @@ a:hover {
 .intro-section p:first-child {
   margin-top: 0; 
 }
+
+
+.contact-container {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;             
+  gap: 40px;                  
+  margin-top: 20px;
+}
+
+.contact-column {
+  flex: 1;                      
+  min-width: 250px;             
+}
+
+.address-col p {
+  font-size: 18.5px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.qr-col, .map-col {
+  text-align: center;
+  font-size: 18.5px;
+}
+
+.contact-image {
+  margin-top: 15px;
+  border: 1px solid #eee;        
+  border-radius: 4px;
+}
+
+.qr-col img {
+  width: 150px;                
+}
+
+.map-col img {
+  width: 100%;                   
+  max-width: 350px;            
+}
