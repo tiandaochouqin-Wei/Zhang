@@ -326,3 +326,11 @@ a:hover {
     font-size: 30px;
   }
 }
+
+ .badge-gray {
+  background: #777777;
+}
+
+.badge-red {
+  background: #d9534f;
+}
