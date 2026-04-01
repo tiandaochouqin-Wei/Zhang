@@ -12,7 +12,7 @@ body {
   color: #222;
   background: #ffffff;
   line-height: 1.8;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 a {
@@ -238,7 +238,7 @@ a:hover {
 
 .section p {
   margin: 0 0 16px 0;
-  font-size: 18px; 
+  font-size: 20px; 
   color: #333;
 }
 
