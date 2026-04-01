@@ -413,3 +413,13 @@ a:hover {
 .badge-red {
   background: #d9534f;
 }
+
+
+.intro-section {
+  margin-top: -10px; 
+  padding-top: 0;
+}
+
+.intro-section p:first-child {
+  margin-top: 0; 
+}
