@@ -276,6 +276,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  gap: 15px;
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ececec;
