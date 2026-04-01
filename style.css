@@ -276,15 +276,18 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ececec;
 }
 
 .section-header h2 {
   margin: 0;
   padding-bottom: 0;
   border-bottom: none;
-  font-size: 30px;
+  font-size: 32px;
   color: #111;
+  font-weight: 700;
 }
 
 .more-btn {
