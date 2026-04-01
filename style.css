@@ -275,7 +275,7 @@ a:hover {
 .section-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ececec;
