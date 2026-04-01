@@ -481,6 +481,11 @@ a:hover {
 }
 
 .info-edu {
+  font-size: 12px; 
+  /* 🔧 确保斜体：虽然 HTML 里有 <em>，加这句可以作为双保险 */
+  font-style: italic; 
+  /* 🔧 选填：如果想让过往经历的颜色比当前头衔稍微浅一点点，显得更有层次 */
+  color: #555;
 }
 
 
