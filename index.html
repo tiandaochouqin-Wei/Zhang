@@ -1,264 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wei Zhang</title>
-  <meta name="description" content="Academic homepage of Wei Zhang" />
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[ Wei Zhang @ HIT ]</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="nav-container">
-      <a class="site-name" href="#home">Wei Zhang</a>
-    <nav class="site-nav">
-        <a href="#home">Home</a>
-        <a href="#news">News</a>
-        
-        <div class="dropdown">
-          <a class="dropbtn" href="#publications">Publications ▾</a>
-          <div class="dropdown-content">
-            <a href="#publications">Selected</a>
-            <a href="all_publications.html">All</a>
-          </div>
-        </div>
-        
-        <a href="#service">Service</a>
-        <a href="#resources">Resources</a>
-        <a href="#cv">CV</a>
-        <a href="#datasets">Datasets</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
 
- <main class="page" id="home">
-    
-    <div class="profile-header">
-      
-      <div class="profile-image-container">
-        <img class="profile-photo" src="photo.png" alt="Wei Zhang" />
-        <p style="text-align: center; font-style: italic; color: #666; font-size: 14px; margin-top: 10px;">Try your best and keep trying.</p>
-      </div>
-      
-      <div class="profile-info">
-        <h1 class="profile-name">Wei Zhang</h1>
-        
-        <p class="info-edu"><em>Postdoc, Karolinska Institutet, Stockholm, Sweden</em></p>
-        <p class="info-edu"><em>PhD, Harbin Institute of Technology, Harbin, China</em></p>
-        
-        <p class="info-title">Postdoctoral Researcher</p>
-        <p class="info-affiliation"><a href="#" target="_blank">Department of Clinical Science, Division of Radiology，Karolinska Institutet</a></p>
-        <p class="info-email">Email: <a href="mailto:bujingdexin@gmail.com">bujingdexin@gmail.com</a></p>
-        <p class="info-expertise"><em>Expertise: Medical Imaging; Deep Learning; Computer Vision; Multimodal AI</em></p>
-
-        <div class="quick-links" style="margin-top: 15px;">
-          <a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">ORCID</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>
-      </div>
-    </div>
-
-    <section class="content">
-      <section class="section intro-section">
-        <p>
-          I am a Postdoctoral Researcher at Karolinska Institutet. My research focuses on
-          medical image processing, deep learning algorithms, robot vision, and multimodal
-          artificial intelligence for healthcare applications.
-        </p>
-        <p>
-          I received my PhD in Mechanical Engineering from Harbin Institute of Technology
-          and completed joint doctoral training at KTH Royal Institute of Technology.
-          My recent work mainly involves low-dose CT denoising, brain tumor segmentation,
-          pulmonary nodule detection, PET/CT image fusion, and medical image quality assessment.
-        </p>
-        <p>
-          I am broadly interested in building practical and trustworthy AI methods for
-          biomedical imaging and clinical decision support, and I welcome academic discussion
-          and research collaboration in related areas.
-        </p>
-      </section>
-      
-
-      <section class="section" id="news">
-        <div class="section-header">
-          <h2>News</h2>
-          <a class="more-btn" href="#" style="background-color: #337ab7;">More »</a>
-        </div>
-
-        <ul class="news-list news-style-2">
-          <li>
-            <span class="news-badge badge-blue">BIBM'25</span>
-            <span class="news-text">Dec, 2025: two papers are accepted by BIBM 2025.</span>
-          </li>
-          <li>
-            <span class="news-badge badge-blue">MICCAI'25</span>
-            <span class="news-text">2025: one paper is accepted by MICCAI 2025.</span>
-          </li>
-          <li>
-            <span class="news-badge badge-cyan">ICASSP'26</span>
-            <span class="news-text">2026: one paper is accepted by ICASSP 2026.</span>
-          </li>
-          <li>
-            <span class="news-badge badge-green">Project</span>
-            <span class="news-text">Ongoing research on robust PET-CT quality assessment for clinical applications.</span>
-          </li>
-          <li>
-            <span class="news-badge badge-orange">Editor</span>
-            <span class="news-text">Serving as associate editor, youth editorial board member, and guest editor for multiple journals.</span>
-          </li>
-          <li>
-            <span class="news-badge badge-yellow">Review</span>
-            <span class="news-text">Actively reviewing for IEEE TNNLS, IEEE Transactions on Medical Imaging, CVPR, ICCV, ICASSP, and related venues.</span>
-          </li>
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="#intro" class="brand">
+      <img src="images/logo.jpg" alt="logo" onerror="this.style.display='none'">
+    </a>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li class="dropdown">
+        <a href="#publications">Publications &#9662;</a>
+        <ul class="dropdown-menu">
+          <li><a href="#publications">Selected</a></li>
+          <li><a href="all_publications.html">All</a></li>
         </ul>
-      </section>
-
-      <section class="section" id="publications">
-     <div class="section-header" style="justify-content: flex-start; gap: 15px;">
-          <h2 style="border-bottom: none; margin: 0; padding-bottom: 0;">Selected Publications</h2>
-          <a class="more-btn" href="all_publications.html" style="background-color: #337ab7;">All Publications»</a>
-        </div>
-
-        <div class="pub-links">
-          <a href="#" class="news-badge badge-orange" style="color: #fff; text-decoration: none;" target="_blank" rel="noopener noreferrer">Google Scholar Profile</a>
-          
-          <a href="#" class="news-badge badge-gray" style="color: #fff; text-decoration: none;" target="_blank" rel="noopener noreferrer">ORCID Profile</a>
-          
-          </div>
-
-      <ul class="news-list news-style-2">
-          <li>
-            <span class="news-badge badge-green">IJIST'24</span>
-            <strong>Wei Zhang</strong>, Jin W, Rho S, et al. A federated learning framework for brain tumor segmentation without sharing patient data. <strong><em>International Journal of Imaging Systems and Technology</em>, 2024.</strong>
-          </li>
-          <li>
-            <span class="news-badge badge-green">Electronics'24</span>
-            <strong>Wei Zhang</strong>, Salmi A, Yang C, et al. Innovative Noise Extraction and Denoising in Low-Dose CT Using a Supervised Deep Learning Framework. <strong><em>Electronics</em>, 2024.</strong>
-          </li>
-          <li>
-            <span class="news-badge badge-green">IEEE Access'24</span>
-            <strong>Wei Zhang</strong>, Salmi A, Jiang F, et al. Enhancing Pulmonary Nodule Detection Rate using 3D Convolutional Neural Networks with Optical Flow Frame Insertion Technique. <strong><em>IEEE Access</em>, 2024.</strong>
-          </li>
-          <li>
-            <span class="news-badge badge-green">BIBM'25</span>
-            <strong>Wei Zhang</strong>, Wenhao Jiang, Chenyue Song, Siqiao Li, Yongying Tan, Yuzhou Zhu. CMC-GAN: Cross-Modal Coupled GAN with Double Discriminators for PET/CT Image Fusion. <strong><em>BIBM</em>, 2025.</strong>
-          </li>
-          <li>
-            <span class="news-badge badge-green">CAAI-TIS'25</span>
-            <strong>Wei Zhang</strong>, Luo Yayuan. Fine-grained control over AI image generation: A comparative study of structured and unstructured cue words and their lightweight fine-tuning. <strong><em>CAAI Transactions on Intelligent Systems</em>, 2025.</strong>
-          </li>
-        </ul>
-      </section>
-
-      <section class="section" id="service">
-        <h2>Service</h2>
-    <ul class="news-list news-style-2">
-          <li>
-            <span class="news-badge badge-green">Journal Editors</span>
-            Associate Editor, International Journal of Medical Imaging
-          </li>
-          <li>
-            <span class="news-badge badge-green">Editorial Board</span>
-            Editorial Board Member, Journal of Clinical Diagnosis and Treatment
-          </li>
-          <li>
-            <span class="news-badge badge-green">Youth Editorial</span>
-            Youth Editorial Board Member, Journal of Intelligent Systems
-          </li>
-          <li>
-            <span class="news-badge badge-green">Guest Editor</span>
-            Guest Editor for special issues in medical imaging and trustworthy medical AI
-          </li>
-          <li>
-            <span class="news-badge badge-green">Journal Reviewer</span>
-            Reviewer for IEEE TNNLS, IEEE Transactions on Medical Imaging, CVPR, ICCV, ICASSP, ICME, and related venues
-          </li>
-        </ul>
-      </section>
-
-      <section class="section" id="resources">
-        <h2>Resources</h2>
-  <ul class="news-list news-style-2">
-          <li>
-            <a href="#" class="news-badge badge-green" style="color: #fff; text-decoration: none;" target="_blank" rel="noopener noreferrer">Project Page</a>
-            Research Project Page
-          </li>
-          <li>
-            <a href="#" class="news-badge badge-gray" style="color: #fff; text-decoration: none;" target="_blank" rel="noopener noreferrer">Materials</a>
-            Slides and Materials
-          </li>
-          <li>
-            <a href="#" class="news-badge badge-red" style="color: #fff; text-decoration: none;" target="_blank" rel="noopener noreferrer">Useful Links</a>
-            Useful Research Links
-          </li>
-          <li>
-            <a href="#" class="news-badge badge-blue" style="color: #fff; text-decoration: none;" target="_blank" rel="noopener noreferrer">Github</a>
-            GitHub Repository I support open-source code development.
-          </li>
-        </ul>
-      </section>
-
-      <section class="section" id="cv">
-        <h2>CV</h2>
-       <ul class="news-list news-style-2">
-          <li>
-            <span class="news-badge badge-red">PDF</span>
-            You can download my curriculum vitae here: <a href="cv.pdf" target="_blank" rel="noopener noreferrer">CV.pdf</a>
-          </li>
-        </ul>
-      </section>
-
-      <section class="section" id="datasets">
-        <h2>Datasets</h2>
-      <ul class="news-list news-style-2">
-          <li>
-            <span class="news-badge badge-green">Dataset 1</span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Dataset 1</a>
-          </li>
-          <li>
-            <span class="news-badge badge-green">Dataset 2</span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Dataset 2</a>
-          </li>
-          <li>
-            <span class="news-badge badge-cyan">Benchmark</span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Benchmark Resource</a>
-          </li>
-        </ul>
-      </section>
-
-     <section class="section" id="contact">
-  <div class="section-header">
-    <h2>Contact</h2>
+      </li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="Wei ZhangCV.pdf">CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
-  
-  <div class="contact-container">
-    <div class="contact-column address-col">
-      <p><strong>Office address</strong></p>
-      <p>Department of Clinical Science, Division of Radiology,<br>Karolinska Institutet</p>
-      <p><strong>Official Email:</strong> <a href="mailto:bujingdexin@gmail.com">bujingdexin@gmail.com</a></p>
-    </div>
+</nav>
 
-    <div class="contact-column qr-col">
-      <p>Wechat account</p>
-      <img src="wechat.png" alt="Wechat QR Code" class="contact-image">
-    </div>
-
-    <div class="contact-column map-col">
-      <p>Total Pageviews</p>
-      <img src="map_placeholder.png" alt="Visitor Map" class="contact-image map-img">
-    </div>
+<header id="intro" class="header">
+  <div class="header-inner">
+    <a href="photo.png"><img class="profile-photo" src="photo.png" alt="Wei Zhang"></a>
+    <h5 class="motto"><em>Try your best and keep trying.</em></h5>
+    <h1 class="name">Wei Zhang (&#24352;&#20255;)</h1>
+    <h5><em>PhD Candidate / Researcher, Harbin Institute of Technology, Harbin, China</em></h5>
+    <h4>
+      [Your Title &mdash; PhD Candidate / Postdoc / Research Fellow]
+      &nbsp;<a href="#">[Your Lab Name]</a>
+      &nbsp;<a href="#">School of Computer Science and Technology</a>
+      &nbsp;<a href="#">Harbin Institute of Technology</a>
+      &nbsp;&nbsp;Email: weizhang[AT]hit.edu.cn
+    </h4>
+    <h4><em>Expertise: Medical Image Analysis; Deep Learning; Computer Vision; Multimodal &amp; Federated Learning; Signal Processing</em> <a href="#intro">&raquo;</a></h4>
   </div>
+</header>
+
+<div class="container expand-controls">
+  <button onclick="expandAll()" class="btn"><strong>EXPAND ALL SECTIONS</strong></button>
+  <button onclick="collapseAll()" class="btn"><strong>COLLAPSE ALL SECTIONS</strong></button>
+</div>
+
+<section class="container section" id="introduction">
+  <details open>
+    <summary><strong>Introduction</strong></summary>
+    <hr>
+    <p>
+      I am a researcher at <a href="#">Harbin Institute of Technology (HIT)</a>, working on
+      <strong>medical image analysis, deep learning, computer vision, and multimodal learning</strong>.
+    </p>
+    <p>
+      Over the years, my research has spanned several areas. My early work focused on
+      <em>environment perception for unmanned surface vehicles (USVs)</em> through vision &amp; LiDAR fusion,
+      and <em>object detection / tracking</em> in maritime environments. I later collaborated on
+      <em>multimodal generation and vision transformers</em>, with publications at ICCV, ECCV, IEEE TNNLS,
+      and ACM Computing Surveys. My current research emphasis is on
+      <em>medical image computing</em> &mdash; including low-dose CT denoising, PET/CT image fusion and quality
+      assessment, brain-tumor segmentation and detection, federated learning for medical imaging,
+      and capsule-endoscopy data compression.
+    </p>
+    <p>
+      I have published over 40 papers in international conferences and journals, including
+      <strong>ICCV, ECCV, MICCAI, ICASSP, ICME, BIBM, PRCV, TrustCom</strong>,
+      and journals such as
+      <strong>IEEE TNNLS, ACM Computing Surveys, IEEE Access, Knowledge-Based Systems,
+      Expert Systems with Applications, Scientific Data, ACM TOMM</strong>, and others.
+    </p>
+    <p>
+      I am committed to <strong>open science</strong> &mdash; releasing code, datasets, and benchmarks
+      whenever possible. Researchers and clinicians interested in medical AI and translational
+      biomedical engineering are warmly welcome to contact me.
+    </p>
+  </details>
 </section>
-    </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="footer-container">
-      <p>© 2026 Wei Zhang. All rights reserved.</p>
-    </div>
-  </footer>
+<section class="container section" id="news">
+  <details open>
+    <summary><strong>News</strong></summary>
+    <hr>
+    <h2>News</h2>
+    <ul class="news-list">
+      <li><span class="tag tag-paper">Sci Data'26</span> A multi-focus oral panoramic X-ray image dataset paper accepted by <em>Scientific Data</em>.</li>
+      <li><span class="tag tag-paper">TOMM'26</span> FRAMU (lightweight fractal framework for skin lesion segmentation) accepted by <em>ACM TOMM</em>.</li>
+      <li><span class="tag tag-paper">ESWA'26</span> Threshold-free frequency-utility skyline sequential pattern mining accepted by <em>Expert Systems with Applications</em>.</li>
+      <li><span class="tag tag-paper">KBS'26</span> MEU-Miner accepted by <em>Knowledge-Based Systems</em>.</li>
+      <li><span class="tag tag-paper">BIBM'25</span> Nov 2025: Four papers accepted by IEEE BIBM (CMC-GAN, YOLO-DCS, MARS-Net, GAN-based LDCT denoising).</li>
+      <li><span class="tag tag-paper">MICCAI'25</span> Jul 2025: Two papers accepted by MICCAI (LVPNet, MS-IQA).</li>
+      <li><span class="tag tag-paper">ICME'25</span> Jun 2025: BPCLIP paper accepted by IEEE ICME.</li>
+      <li><span class="tag tag-paper">ICASSP'25</span> Apr 2025: Trust-region MARL ranking scheme accepted by ICASSP.</li>
+      <li><span class="tag tag-paper">TNNLS'24</span> Paper on continuously updating boundary goals accepted by IEEE TNNLS.</li>
+      <li><span class="tag tag-paper">JSPS'25</span> MAET (masked autoencoding for time-series anomaly detection) accepted by <em>Journal of Signal Processing Systems</em>.</li>
+      <li><span class="tag tag-paper">Access'24</span> 3D CNN for pulmonary nodule detection accepted by IEEE Access.</li>
+      <li><span class="tag tag-paper">Elec'24</span> Supervised deep network for low-dose CT denoising accepted by <em>Electronics</em>.</li>
+      <li><span class="tag tag-paper">MONET'24</span> Wireless capsule endoscopy DL compression accepted by <em>Mobile Networks &amp; Applications</em>.</li>
+      <li><span class="tag tag-paper">IJIST'24</span> Federated learning framework for brain-tumor segmentation accepted.</li>
+      <li><span class="tag tag-paper">TNNLS'23</span> Visualizing and understanding patch interactions in ViT accepted by IEEE TNNLS.</li>
+      <li><span class="tag tag-paper">ICCV'23</span> MRN (incremental multilingual text recognition) accepted by ICCV.</li>
+      <li><span class="tag tag-paper">CSUR'23</span> Survey on deep person generation accepted by ACM Computing Surveys.</li>
+      <li><span class="tag tag-paper">Access'21</span> Research on USV environment perception accepted by IEEE Access.</li>
+      <li><span class="tag tag-grant">Grant</span> <em>(Add: 国家自然科学基金 / 省级项目 / 校级项目 etc.)</em></li>
+      <li><span class="tag tag-editor">Editor</span> <em>(Add: 期刊客座编辑 / 审稿人 etc.)</em></li>
+      <li><span class="tag tag-journey">New Journey</span> <em>(Add: 加入新单位 / 访问学者 etc.)</em></li>
+      <li><span class="tag tag-book">Book</span> <em>(Add: 专著 / 章节 etc.)</em></li>
+    </ul>
+  </details>
+</section>
+
+<section class="container section" id="publications">
+  <details open>
+    <summary><strong>Publications</strong></summary>
+    <hr>
+    <h2>Selected Publications <a href="all_publications.html" class="small-link">All Publications &raquo;</a></h2>
+    <h4>
+      [Add:] <a href="#">h-index</a>: [N]
+      &nbsp;<a href="#">Citations</a>: [N]+
+      &nbsp;<a href="https://scholar.google.com/">Google Scholar</a>
+      &nbsp;<a href="#">ORCID</a>
+      &nbsp;<a href="#">ResearcherID</a>
+    </h4>
+    <ul class="pub-list">
+        <li><span class="venue-tag v-top">Sci Data'26</span>
+        Cui, J.; Gu, J.; Guan, Y.; Xiao, H.; Liu, K.; <b>Zhang, W.</b>; Li, S.; Song, C.; Zhu, Y.; Tan, Y. (2026). A multi-focus oral panoramic x-ray image dataset based on pixel-level annotations. <strong><em>Scientific Data</em></strong>. Nature Publishing Group UK London.
+        </li>
+
+        <li><span class="venue-tag v-top">TOMM'26</span>
+        Yu, H.; Shi, J.; <b>Zhang, W.</b>; Wang, J. (2026). FRAMU: A Lightweight Fractal Framework with Abductive Reasoning for Skin Lesion Segmentation. <strong><em>ACM Transactions on Multimedia Computing, Communications and Applications</em></strong>, 22(5), 1-19.
+        </li>
+
+        <li><span class="venue-tag v-top">ESWA'26</span>
+        <b>Zhang, W.</b>; Tang, S.; Shen, Y.; Yang, B.; Yu, G.; Wang, X. (2026). Threshold-Free Frequency-Utility Skyline Sequential Pattern Mining with Non-Overlapping Occurrence Semantics. <strong><em>Expert Systems with Applications</em></strong>, 132227. Pergamon.
+        </li>
+
+        <li><span class="venue-tag v-top">KBS'26</span>
+        Zhao, W.; Tian, C.; Wang, X.; Wang, D.; Ye, X.; <b>Zhang, W.</b> (2026). MEU-Miner: Bitset-Guided Multi-Dimensional High-Utility Sequential Pattern Mining with Parallelism and Adaptive Top-k. <strong><em>Knowledge-Based Systems</em></strong>, 115314. Elsevier.
+        </li>
+
+        <li><span class="venue-tag v-top">MICCAI'25</span>
+        Li, S.; Hui, C.; <b>Zhang, W.</b>; Liang, R.; Song, C.; Jiang, F.; Zhu, H.; Li, Z.; Huang, H.; Li, X. (2025). MS-IQA: A Multi-scale Feature Fusion Network for PET/CT Image Quality Assessment. <strong><em>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)</em></strong>, 402-412. Springer.
+        </li>
+
+        <li><span class="venue-tag v-top">MICCAI'25</span>
+        Song, C.; Hui, C.; Lin, Q.; <b>Zhang, W.</b>; Li, S.; Zhu, H.; Zhang, S.; Li, Z.; Liu, S.; Jiang, F. (2025). LVPNet: A Latent-Variable-Based Prediction-Driven End-to-End Framework for Lossless Compression of Medical Images. <strong><em>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)</em></strong>, 288-298. Springer.
+        </li>
+
+        <li><span class="venue-tag v-major">ICME'25</span>
+        Song, C.; Hui, C.; <b>Zhang, W.</b>; Zhu, H.; Liu, S.; Huang, H.; Jiang, F. (2025). BPCLIP: A Bottom-up Image Quality Assessment from Distortion to Semantics Based on CLIP. <strong><em>2025 IEEE International Conference on Multimedia and Expo (ICME)</em></strong>, 1-6. IEEE.
+        </li>
+
+        <li><span class="venue-tag v-major">ICASSP'25</span>
+        Gao, R.; Hu, Y.; Zheng, D.; Shao, M.; Zhu, H.; Song, C.; <b>Zhang, W.</b>; Jiang, F. (2025). A Ranking Scheme for Trust Region Multi-agent Reinforcement Learning. <strong><em>ICASSP 2025 &mdash; IEEE International Conference on Acoustics, Speech and Signal Processing</em></strong>, 1-5. IEEE.
+        </li>
+
+        <li><span class="venue-tag v-top">TNNLS'24</span>
+        Shao, M.; Zhu, H.; Zhao, D.; Han, K.; Jiang, F.; Liu, S.; <b>Zhang, W.</b> (2024). Progressively Learning to Reach Remote Goals by Continuously Updating Boundary Goals. <strong><em>IEEE Transactions on Neural Networks and Learning Systems</em></strong>, 36(5), 9238-9252.
+        </li>
+
+        <li><span class="venue-tag v-top">TNNLS'23</span>
+        Ma, J.; Bai, Y.; Zhong, B.; <b>Zhang, W.</b>; Yao, T.; Mei, T. (2023). Visualizing and understanding patch interactions in vision transformer. <strong><em>IEEE Transactions on Neural Networks and Learning Systems</em></strong>, 35(10), 13671-13680.
+        </li>
+
+        <li><span class="venue-tag v-top">ICCV'23</span>
+        Zheng, T.; Chen, Z.; Huang, B.; <b>Zhang, W.</b>; Jiang, Y.G. (2023). MRN: Multiplexed Routing Network for Incremental Multilingual Text Recognition. <strong><em>Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)</em></strong>, 18644-18653.
+        </li>
+
+        <li><span class="venue-tag v-top">CSUR'23</span>
+        Sha, T.; <b>Zhang, W.</b>; Shen, T.; Li, Z.; Mei, T. (2023). Deep person generation: A survey from the perspective of face, pose, and cloth synthesis. <strong><em>ACM Computing Surveys</em></strong>, 55(12), 1-37.
+        </li>
+
+        <li><span class="venue-tag v-top">ECCV'22</span>
+        Zhou, M.; Bai, Y.; <b>Zhang, W.</b>; Yao, T.; Zhao, T.; Mei, T. (2022). Responsive Listening Head Generation: A Benchmark Dataset and Baseline. <strong><em>European Conference on Computer Vision (ECCV)</em></strong>, 124-142. Springer.
+        </li>
+
+        <li><span class="venue-tag v-minor">Access'21</span>
+        <b>Zhang, W.</b>; Jiang, F.; Yang, C.F.; Wang, Z.P.; Zhao, T.J. (2021). Research on Unmanned Surface Vehicles Environment Perception Based on the Fusion of Vision and LiDAR. <strong><em>IEEE Access</em></strong>, 9, 63107-63121.
+        </li>
+    </ul>
+    <p><a href="all_publications.html">All Publications &raquo;</a></p>
+  </details>
+</section>
+
+<section class="container section" id="service">
+  <details open>
+    <summary><strong>Service</strong></summary>
+    <hr>
+    <h2>Professional Service</h2>
+    <h4>Journal Reviewer</h4>
+    <ul>
+      <li><strong>IEEE Transactions on Neural Networks and Learning Systems</strong></li>
+      <li><strong>IEEE Access</strong></li>
+      <li><strong>Knowledge-Based Systems</strong></li>
+      <li><strong>Expert Systems with Applications</strong></li>
+      <li><em>(Add additional journals you regularly review for.)</em></li>
+    </ul>
+    <h4>Conference Reviewer / PC Member</h4>
+    <ul>
+      <li><em>(Add: MICCAI / ICASSP / ICME / BIBM / ECCV / ICCV ... as applicable)</em></li>
+    </ul>
+  </details>
+</section>
+
+<section class="container section" id="resources">
+  <details open>
+    <summary><strong>Resources</strong></summary>
+    <hr>
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="https://scholar.google.com/">Google Scholar</a> &mdash; my publication record.</li>
+      <li><a href="https://github.com/tiandaochouqin-Wei">GitHub</a> &mdash; open-source code &amp; datasets.</li>
+      <li><a href="#">Code &amp; Datasets</a> &mdash; links to released artifacts.</li>
+      <li><a href="#">Tutorials</a> &mdash; useful materials for graduate students.</li>
+    </ul>
+  </details>
+</section>
+
+<section class="container section" id="contact">
+  <details open>
+    <summary><strong>Contact</strong></summary>
+    <hr>
+    <h2>Contact</h2>
+    <h4>Office Address</h4>
+    <p>
+      [Your Lab Name], [Building / Room],<br>
+      School of Computer Science and Technology,<br>
+      <a href="https://www.hit.edu.cn/">Harbin Institute of Technology</a>,<br>
+      [Street Address], Nangang District, Harbin, China<br>
+      <strong>Email</strong>: weizhang[AT]hit.edu.cn<br>
+      <strong>Alt. Email</strong>: yourname[AT]example.com
+    </p>
+    <h4>Find me online</h4>
+    <ul>
+      <li><a href="https://github.com/tiandaochouqin-Wei">GitHub</a></li>
+      <li><a href="https://scholar.google.com/">Google Scholar</a></li>
+      <li><a href="#">ORCID</a></li>
+    </ul>
+  </details>
+</section>
+
+<footer class="footer">
+  <hr>
+  <p>&copy; 2026 Wei Zhang. Built on the AR (Academic Responsive) template by D. Zeinalipour.</p>
+  <p style="font-size:0.85em;color:#888;">AR template available under Creative Commons CC BY 4.0:
+    <a href="https://github.com/dmsl/academic-responsive-template">https://github.com/dmsl/academic-responsive-template</a>
+  </p>
+</footer>
+
+<script>
+function expandAll() { document.querySelectorAll('details').forEach(d => d.open = true); }
+function collapseAll() { document.querySelectorAll('details').forEach(d => d.open = false); }
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', function(e) {
+    const tgt = document.querySelector(this.getAttribute('href'));
+    if (tgt) {
+      e.preventDefault();
+      tgt.scrollIntoView({behavior:'smooth', block:'start'});
+      const det = tgt.querySelector('details');
+      if (det) det.open = true;
+    }
+  });
+});
+</script>
 </body>
 </html>
