@@ -289,7 +289,7 @@ strong, b { font-weight: 700; }
 .venue-tag.v-top    { background: #F0C36D; color: #5a3d04; }   /* TOP conferences/journals */
 .venue-tag.v-major  { background: #7BC0DC; color: #053b56; }   /* MICCAI/TNNLS/etc */
 .venue-tag.v-minor  { background: #AFD9EA; color: #074c66; }   /* Workshop/IEEE Access */
-.venue-tag.v-cn     { background: #9ECA7A; color: #2c4d0f; }   /* CN journals */
+.venue-tag.v-cn     { background: #E48383; color: #5a1414; }   /* Chinese top journals (TIS/JEIT/etc) */
 
 /* ---------- Lists in sections ---------- */
 .section ul:not(.pub-list):not(.news-list):not(.nav-links):not(.dropdown-menu) {
